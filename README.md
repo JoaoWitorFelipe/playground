@@ -5,11 +5,3 @@
 ## Available configuration languages: 
 - PHP
 - Dart
-
-## Coming soon 
-- [ ] Dart && Flutter
-- [ ] PHP && Laravel
-- [ ] Kotlin && Android
-
-
-
