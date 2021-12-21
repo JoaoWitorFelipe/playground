@@ -1,0 +1,17 @@
+version: '3'
+services:
+
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: ruby
+    container_name: ruby
+    restart: unless-stopped
+    tty: true
+    environment:
+      SERVICE_NAME: app
+      SERVICE_TAGS: dev
+    working_dir: /usr/src/app
+    volumes:
+      - ./:/usr/src/app
