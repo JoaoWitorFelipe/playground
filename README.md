@@ -5,3 +5,4 @@
 ## Available configuration languages: 
 - PHP
 - Dart
+- MySQL
